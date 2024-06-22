@@ -15,6 +15,10 @@
 		22C2DD382C2504D70025D361 /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C2DD372C2504D70025D361 /* CustomBackgroundView.swift */; };
 		22C2DD3A2C2516240025D361 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C2DD392C2516240025D361 /* CustomButtonView.swift */; };
 		22C2DD3D2C251AFC0025D361 /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C2DD3C2C251AFC0025D361 /* GradientButtonStyle.swift */; };
+		22C2DD3F2C2635960025D361 /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C2DD3E2C2635960025D361 /* CustomCircleView.swift */; };
+		22C2DD412C2636910025D361 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C2DD402C2636910025D361 /* MotionAnimationView.swift */; };
+		22C2DD442C264E740025D361 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C2DD432C264E740025D361 /* SettingsView.swift */; };
+		22C2DD462C2735D00025D361 /* CustomListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C2DD452C2735D00025D361 /* CustomListRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +31,10 @@
 		22C2DD372C2504D70025D361 /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
 		22C2DD392C2516240025D361 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 		22C2DD3C2C251AFC0025D361 /* GradientButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
+		22C2DD3E2C2635960025D361 /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
+		22C2DD402C2636910025D361 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
+		22C2DD432C264E740025D361 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		22C2DD452C2735D00025D361 /* CustomListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomListRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +70,7 @@
 				22C2DD3B2C251AEF0025D361 /* Utility */,
 				22C2DD362C2504B20025D361 /* Component */,
 				22C2DD262C2502620025D361 /* HikeApp.swift */,
-				22C2DD282C2502620025D361 /* ContentView.swift */,
+				22C2DD422C264E5E0025D361 /* Screen */,
 				22C2DD2A2C2502630025D361 /* Assets.xcassets */,
 				22C2DD2C2C2502630025D361 /* Preview Content */,
 			);
@@ -83,6 +91,9 @@
 				22C2DD342C2504020025D361 /* CardView.swift */,
 				22C2DD372C2504D70025D361 /* CustomBackgroundView.swift */,
 				22C2DD392C2516240025D361 /* CustomButtonView.swift */,
+				22C2DD3E2C2635960025D361 /* CustomCircleView.swift */,
+				22C2DD402C2636910025D361 /* MotionAnimationView.swift */,
+				22C2DD452C2735D00025D361 /* CustomListRowView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -93,6 +104,15 @@
 				22C2DD3C2C251AFC0025D361 /* GradientButtonStyle.swift */,
 			);
 			path = Utility;
+			sourceTree = "<group>";
+		};
+		22C2DD422C264E5E0025D361 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				22C2DD282C2502620025D361 /* ContentView.swift */,
+				22C2DD432C264E740025D361 /* SettingsView.swift */,
+			);
+			path = Screen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,8 +187,12 @@
 			files = (
 				22C2DD3A2C2516240025D361 /* CustomButtonView.swift in Sources */,
 				22C2DD292C2502620025D361 /* ContentView.swift in Sources */,
+				22C2DD462C2735D00025D361 /* CustomListRowView.swift in Sources */,
 				22C2DD352C2504020025D361 /* CardView.swift in Sources */,
+				22C2DD442C264E740025D361 /* SettingsView.swift in Sources */,
+				22C2DD3F2C2635960025D361 /* CustomCircleView.swift in Sources */,
 				22C2DD3D2C251AFC0025D361 /* GradientButtonStyle.swift in Sources */,
+				22C2DD412C2636910025D361 /* MotionAnimationView.swift in Sources */,
 				22C2DD272C2502620025D361 /* HikeApp.swift in Sources */,
 				22C2DD382C2504D70025D361 /* CustomBackgroundView.swift in Sources */,
 			);
